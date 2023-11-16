@@ -1,14 +1,27 @@
 const { writeFile, existsSync } = require("fs");
+const { get } = require("http");
 const { basename } = require("path");
 
 console.log("createStory.js loaded");
 const fileDirName = process.argv[2];
+const filePath = process.argv[3];
 console.log(fileDirName);
+console.log(basename(filePath));
 
-const folderName = basename(fileDirName);
-const name = folderName.replace(/(^[a-z])|[-_]([A-z])/g, (_,first,camel) => (first || camel).toUpperCase());
+const getStorybookPath = () => {
+  const fileBasename = basename(filePath);
+  if (fileBasename.startsWith("index")) {
+    const folderName = basename(fileDirName);
+    const name = folderName.replace(/(^[a-z])|[-_]([A-z])/g, (_, first, camel) => (first || camel).toUpperCase());
 
-const storyName = `${name}.stories.tsx`;
+    return { name, storyName: `${name}.stories.tsx` };
+  }
+  const name = fileBasename.split(".")[0];
+
+  return { name, storyName: `${name}.stories.tsx` };
+};
+
+const { name, storyName} = getStorybookPath();
 
 const storyPath = `${fileDirName}/${storyName}`;
 console.log({
