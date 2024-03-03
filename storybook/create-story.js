@@ -37,10 +37,12 @@ const storyTemplate = (componentName) => `import { Meta, StoryObj } from "@story
 
 import ${componentName} from "./${useIndex ? "index" : componentName}";
 
-export default {
+const meta: Meta<typeof ${componentName}> = {
   title: "${componentName}",
   component: ${componentName},
-} as Meta<typeof ${componentName}>;
+};
+
+export default meta
 
 type StoryType = StoryObj<typeof ${componentName}>;
 
