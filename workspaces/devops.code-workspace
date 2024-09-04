@@ -1,0 +1,28 @@
+{
+	"folders": [
+		{
+			"path": "common"
+		},
+		{
+			"path": "node"
+		},
+		{
+			"path": "ci-templates"
+		},
+		{
+			"path": "aem-microservices-deploy"
+		},
+		{
+			"path": "k8s"
+		},
+		{
+			"path": "m24-tenants-ci-templates"
+		},
+		{
+			"path": "m24-helm"
+		},
+		{
+			"path": "aem-release-deploy"
+		}
+	]
+}

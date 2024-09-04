@@ -1,0 +1,40 @@
+{
+  "folders": [
+    {
+      "path": "des-aem-user-profile"
+    },
+    {
+      "path": "des-aem-user-profile/ui.core/frontend"
+    },
+    {
+      "path": "frontend-libs"
+    }
+  ],
+  "settings": {
+    "jest.disabledWorkspaceFolders": [
+      "des-aem-user-profile",
+      "frontend-libs"
+    ],
+    "workbench.colorCustomizations": {
+      "activityBar.activeBackground": "#9a5e52",
+      "activityBar.background": "#9a5e52",
+      "activityBar.foreground": "#e7e7e7",
+      "activityBar.inactiveForeground": "#e7e7e799",
+      "activityBarBadge.background": "#6db179",
+      "activityBarBadge.foreground": "#15202b",
+      "commandCenter.border": "#e7e7e799",
+      "sash.hoverBorder": "#9a5e52",
+      "statusBar.background": "#794a40",
+      "statusBar.foreground": "#e7e7e7",
+      "statusBarItem.hoverBackground": "#9a5e52",
+      "statusBarItem.remoteBackground": "#794a40",
+      "statusBarItem.remoteForeground": "#e7e7e7",
+      "titleBar.activeBackground": "#794a40",
+      "titleBar.activeForeground": "#e7e7e7",
+      "titleBar.inactiveBackground": "#794a4099",
+      "titleBar.inactiveForeground": "#e7e7e799"
+    },
+    "peacock.remoteColor": "#794a40",
+    "java.configuration.updateBuildConfiguration": "interactive"
+  }
+}

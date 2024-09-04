@@ -42,7 +42,7 @@ const meta: Meta<typeof ${componentName}> = {
   component: ${componentName},
 };
 
-export default meta
+export default meta;
 
 type StoryType = StoryObj<typeof ${componentName}>;
 

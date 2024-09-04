@@ -1,0 +1,40 @@
+{
+  "folders": [
+    {
+      "path": "des-aem-user-auth"
+    },
+    {
+      "path": "des-aem-user-auth/ui.core/frontend"
+    },
+    {
+      "path": "frontend-libs"
+    }
+  ],
+  "settings": {
+    "workbench.colorCustomizations": {
+      "activityBar.activeBackground": "#efe056",
+      "activityBar.background": "#efe056",
+      "activityBar.foreground": "#15202b",
+      "activityBar.inactiveForeground": "#15202b99",
+      "activityBarBadge.background": "#11af9f",
+      "activityBarBadge.foreground": "#e7e7e7",
+      "commandCenter.border": "#15202b99",
+      "sash.hoverBorder": "#efe056",
+      "statusBar.background": "#ebd727",
+      "statusBar.foreground": "#15202b",
+      "statusBarItem.hoverBackground": "#ccb913",
+      "statusBarItem.remoteBackground": "#ebd727",
+      "statusBarItem.remoteForeground": "#15202b",
+      "titleBar.activeBackground": "#ebd727",
+      "titleBar.activeForeground": "#15202b",
+      "titleBar.inactiveBackground": "#ebd72799",
+      "titleBar.inactiveForeground": "#15202b99"
+    },
+    "peacock.remoteColor": "#ebd727",
+    "java.configuration.updateBuildConfiguration": "disabled",
+    "jest.disabledWorkspaceFolders": [
+      "des-aem-user-auth",
+      "frontend-libs"
+    ]
+  }
+}

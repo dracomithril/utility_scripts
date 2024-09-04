@@ -1,0 +1,50 @@
+{
+	"folders": [
+		{
+			"path": "nextgen/des_nest"
+		},
+		{
+			"path": "nextgen/jti-next"
+		},
+		{
+			"path": "nextgen/ssr-jti-next"
+		},
+		{
+			"path": "nextgen/des_express"
+		},
+		{
+			"path": "nextgen/jti-aem-ssr-nextjs"
+		},
+		{
+			"path": "next-js-jti-aem"
+		},
+		{
+			"path": "nextgen/vite-project"
+		},
+		{
+			"path": "nextgen/clean-next-app"
+		}
+	],
+	"settings": {
+		"workbench.colorCustomizations": {
+			"activityBar.activeBackground": "#ed605f",
+			"activityBar.background": "#ed605f",
+			"activityBar.foreground": "#15202b",
+			"activityBar.inactiveForeground": "#15202b99",
+			"activityBarBadge.background": "#53ec54",
+			"activityBarBadge.foreground": "#15202b",
+			"commandCenter.border": "#e7e7e799",
+			"sash.hoverBorder": "#ed605f",
+			"statusBar.background": "#e83331",
+			"statusBar.foreground": "#e7e7e7",
+			"statusBarItem.hoverBackground": "#ed605f",
+			"statusBarItem.remoteBackground": "#e83331",
+			"statusBarItem.remoteForeground": "#e7e7e7",
+			"titleBar.activeBackground": "#e83331",
+			"titleBar.activeForeground": "#e7e7e7",
+			"titleBar.inactiveBackground": "#e8333199",
+			"titleBar.inactiveForeground": "#e7e7e799"
+		},
+		"peacock.remoteColor": "#e83331"
+	}
+}

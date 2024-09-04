@@ -1,0 +1,43 @@
+{
+	"folders": [
+		{
+			"path": "des-aem-loyalty"
+		},
+		{
+			"path": "des-aem-loyalty/ui.core/frontend"
+		},
+		{
+			"path": "frontend-libs"
+		}
+	],
+	"settings": {
+		"java.configuration.updateBuildConfiguration": "disabled",
+		"workbench.colorCustomizations": {
+			"activityBar.activeBackground": "#a0c48a",
+			"activityBar.background": "#a0c48a",
+			"activityBar.foreground": "#15202b",
+			"activityBar.inactiveForeground": "#15202b99",
+			"activityBarBadge.background": "#5675a9",
+			"activityBarBadge.foreground": "#e7e7e7",
+			"commandCenter.border": "#15202b99",
+			"sash.hoverBorder": "#a0c48a",
+			"statusBar.background": "#85b368",
+			"statusBar.foreground": "#15202b",
+			"statusBarItem.hoverBackground": "#6b9a4e",
+			"statusBarItem.remoteBackground": "#85b368",
+			"statusBarItem.remoteForeground": "#15202b",
+			"titleBar.activeBackground": "#85b368",
+			"titleBar.activeForeground": "#15202b",
+			"titleBar.inactiveBackground": "#85b36899",
+			"titleBar.inactiveForeground": "#15202b99"
+		},
+		"peacock.remoteColor": "#85b368",
+		"jest.disabledWorkspaceFolders": [
+			"des-aem-loyalty",
+			"ui.test",
+			"frontend-libs"
+		],
+		"svg.preview.background": "editor",
+		"java.compile.nullAnalysis.mode": "disabled",
+	}
+}

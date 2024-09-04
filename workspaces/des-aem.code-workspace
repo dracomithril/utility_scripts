@@ -1,0 +1,29 @@
+{
+	"folders": [
+		{
+			"path": "des-aem-checkout"
+		},
+		{
+			"path": "jti-aem"
+		},
+		{
+			"path": "des-aem-loyalty"
+		},
+		{
+			"path": "des-aem-op-checkout"
+		},
+		{
+			"path": "des-aem-user-auth"
+		},
+		{
+			"path": "des-aem-user-profile"
+		},
+		{
+			"path": "frontend-libs"
+		}
+	],
+	"settings": {
+		"java.jdt.ls.vmargs": "-XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx2G -Xms100m -Xlog:disable",
+		"java.compile.nullAnalysis.mode": "disabled"
+	}
+}

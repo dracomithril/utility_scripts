@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "adobe/aem-react-core-wcm-components-base"
+		},
+		{
+			"path": "adobe/aem-react-editable-components"
+		},
+		{
+			"path": "adobe/aem-spa-page-model-manager"
+		}
+	]
+}

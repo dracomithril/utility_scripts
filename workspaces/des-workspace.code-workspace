@@ -1,0 +1,48 @@
+{
+	"folders": [
+		{
+			"path": "aem-configurations"
+		},
+		{
+			"path": "aem-local-env"
+		},
+		{
+			"path": "aem-microservices-acl"
+		},
+		{
+			"path": "des-aem-checkout"
+		},
+		{
+			"path": "des-aem-loyalty"
+		},
+		{
+			"path": "des-aem-user-auth"
+		},
+		{
+			"path": "des-aem-user-profile"
+		},
+		{
+			"path": "frontend-libs"
+		},
+		{
+			"path": "jti-aem"
+		}
+	],
+	"settings": {
+		"java.jdt.ls.vmargs": "-XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx2G -Xms100m -Xlog:disable",
+		"java.compile.nullAnalysis.mode": "disabled",
+		"jest.disabledWorkspaceFolders": [
+			"ci-templates",
+			"aem-local-env",
+			"aem-microservices-acl",
+			"jti-aem",
+			"common",
+			"aem-configurations",
+			"frontend-libs",
+			"des-aem-checkout",
+			"des-aem-loyalty",
+			"des-aem-user-auth",
+			"des-aem-user-profile"
+		]
+	}
+}
