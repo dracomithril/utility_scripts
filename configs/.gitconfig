@@ -1,0 +1,16 @@
+[user]
+	name = Michał Grezel
+	email = dracomithril@gmail.com
+
+[includeIf "gitdir:~/des-workspace/"]
+	path = .gitconfig-jti
+[core]
+	excludesFile = /home/mgrezel/.gitignore
+	editor = code --wait
+[pull]
+	rebase = true
+[alias]
+	aliases = config --get-regexp '^alias\\.'
+	st = status -sb
+	cam = commit -am
+	force = push --force-with-lease
