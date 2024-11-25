@@ -1,47 +1,47 @@
 {
   "folders": [
     {
-      "path": "frontend-libs"
+      "path": "/home/mgrezel/des-workspace/frontend-libs"
     },
     {
       "name": "fe-ui",
-      "path": "frontend-libs/packages/ui"
+      "path": "/home/mgrezel/des-workspace/frontend-libs/packages/ui"
     },
     {
       "name": "store",
-      "path": "frontend-libs/packages/store"
+      "path": "/home/mgrezel/des-workspace/frontend-libs/packages/store"
     },
     {
       "name": "user-profile",
-      "path": "frontend-libs/packages/user-profile"
+      "path": "/home/mgrezel/des-workspace/frontend-libs/packages/user-profile"
     },
     {
       "name": "api",
-      "path": "frontend-libs/packages/api"
+      "path": "/home/mgrezel/des-workspace/frontend-libs/packages/api"
     },
     {
       "name": "clients",
-      "path": "frontend-libs/packages/clients"
+      "path": "/home/mgrezel/des-workspace/frontend-libs/packages/clients"
     },
     {
       "name": "message-bus",
-      "path": "frontend-libs/packages/message-bus"
+      "path": "/home/mgrezel/des-workspace/frontend-libs/packages/message-bus"
     },
     {
       "name": "tracker",
-      "path": "frontend-libs/packages/tracker"
+      "path": "/home/mgrezel/des-workspace/frontend-libs/packages/tracker"
     },
     {
       "name": "jti-ui-lib",
-      "path": "frontend-libs/packages/jti-ui-lib"
+      "path": "/home/mgrezel/des-workspace/frontend-libs/packages/jti-ui-lib"
     },
     {
       "name": "common",
-      "path": "frontend-libs/packages/common"
+      "path": "/home/mgrezel/des-workspace/frontend-libs/packages/common"
     },
     {
       "name": "magento",
-      "path": "frontend-libs/packages/magento"
+      "path": "/home/mgrezel/des-workspace/frontend-libs/packages/magento"
     }
   ],
   "settings": {

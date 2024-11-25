@@ -1,14 +1,14 @@
 {
   "folders": [
     {
-      "path": "des-aem-checkout"
+      "path": "/home/mgrezel/des-workspace/des-aem-checkout"
     },
     {
       "name": "frontend",
-      "path": "des-aem-checkout/ui.core/frontend"
+      "path": "/home/mgrezel/des-workspace/des-aem-checkout/ui.core/frontend"
     },
     {
-      "path": "frontend-libs"
+      "path": "/home/mgrezel/des-workspace/frontend-libs"
     }
   ],
   "settings": {
